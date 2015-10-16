@@ -300,6 +300,13 @@ textarea.form-control {
 	margin: 30px auto;
 }
 
+.pfblock-line-resume {
+	background: rgba(255,255,255, 0.5);
+	width: 100px;
+	height: 1px;
+	margin: 30px auto;
+}
+
 .pfblock-icon {
 	font-size: 32px;
 }
@@ -315,7 +322,7 @@ textarea.form-control {
 	   -moz-background-size: cover;
 		 -o-background-size: cover;
 			background-size: cover;
-	padding: 50px 0;
+	padding: 20px 0;
 	color: #999;
 }
 
@@ -339,8 +346,7 @@ textarea.form-control {
 .calltoaction-btn > .btn {
     background: rgba(255, 255, 255, .8);
     color: #111;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	margin: -25px 5px 5px 5px;
 }
 .calltoaction-btn > .btn:hover{
     background: #fff;
