@@ -244,6 +244,17 @@ textarea.form-control {
 .pfblock {
 	padding: 120px 0 100px;
 }
+.pfblock1 {
+	padding: 120px 0 10px;
+}
+
+.pfblock2 {
+	padding: 20px 0 10px;
+}
+
+.pfblock3 {
+	padding: 20px 0 100px;
+}
 
 .pfblock-gray {
 	background: #f5f5f5;
@@ -471,6 +482,11 @@ textarea.form-control {
 
 .ajax-response {
 	text-align: center;
+	color: green;
+}
+
+.warning {
+	color: red;
 }
 
 .clear {
@@ -618,7 +634,7 @@ ul.about {
 .navbar-custom .navbar-brand {
 	font-weight: 700;
 	font-size: 22px;
-    font-family: Lobster, cursive;
+    font-family: Raleway, "Times New Roman", Times, sans-serif;
 }
 
 .navbar-custom .dropdown-menu {
@@ -924,6 +940,11 @@ figure.effect-bubba p {
 	-webkit-transform: translate3d(0,20px,0);
 	transform: translate3d(0,20px,0);
 }
+
+.weather p {
+	padding: 10px !important;
+}
+
 
 figure.effect-bubba:hover figcaption::before,
 figure.effect-bubba:hover figcaption::after {
